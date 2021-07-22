@@ -24,6 +24,7 @@ exports.handler = async (event) => {
         quantity: validatedQuantity,
       },
     ],
+    allow_promotion_codes: true,
   })
 
   return {
